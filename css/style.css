@@ -24,6 +24,7 @@ body {
   border-radius: 15px;
   overflow: hidden;
   background: white;
+  text-align: center;
 }
 
 header img {
@@ -33,6 +34,20 @@ header img {
 h1 {
   font-size: 24px;
   font-weight: 900;
+  padding: 20px;
+  padding-bottom: 0;
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    background-image: url(.././images/pattern-background-mobile.svg);
+  }
+}
+
+p.info {
+  padding: 10px 25px;
+  line-height: 1.8;
+  color: hsl(224, 23%, 55%);
 }
 
 /*
