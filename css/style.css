@@ -28,6 +28,8 @@ body {
   overflow: hidden;
   background: white;
   text-align: center;
+  min-height: 500px;
+  max-height: 510px;
 }
 
 header img {
